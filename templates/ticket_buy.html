@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Парк развлечений</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+</head>
+<body style="background: #ffba00">
+
+<form action="" class="ui-form">
+<h3>Покупка билетов</h3>
+<div class="form-row">
+<input type="text" id="email" required autocomplete="off"><label for="email">Аттракцион</label>
+</div>
+<div class="form-row">
+<input type="password" id="password" required autocomplete="off"><label for="password">Количество</label>
+</div>
+<p><input type="submit" value="ОПЛАТА" onclick='location.href="main"'></p>
+<p><input type="submit" value="Вернуться в меню" onclick='location.href="main"'></p>
+</form>
+
+</body>
+</html>

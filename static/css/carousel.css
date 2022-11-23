@@ -1,0 +1,75 @@
+.textcols {
+	white-space: nowrap;
+	font-size: 0;
+}
+.textcols input[type="submit"] {
+   width: 350px;
+   height: 70px;
+   margin: 100px auto 20px;
+   margin-left: 560px;
+   display: block;
+   background: white;
+   border-width: 0;
+   color: black;
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 15px;
+   box-shadow: 0 0 100px rgba(100,100,100,1);
+}
+
+.textcols-item {
+   white-space: normal;
+   display: inline-block;
+   width: 250px;
+   height: 100%;
+   margin-top: 180px;
+	margin-left: 12%;
+   background: white;
+   border-radius: 20px;
+   box-shadow: 0 0 100px rgba(100,100,100,1);
+
+   font-family: 'Tahoma', sans-serif;
+   color: black;
+   font-size: 15px;
+   font-weight: bold;
+}
+.textcols-item h3 {
+   position: relative;
+   margin: 10px 0 30px;
+   text-align: center;
+   color: #000;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.textcols-item p {
+   margin: 0;
+   padding-top: 10px;
+   font-weight: bold;
+}
+
+.textcols-item img{   margin: 0 auto 20px;
+   display: block;}
+
+.textcols-item input[type="submit"] {
+   width: 130px;
+   height: 25px;
+   padding: 0;
+   margin: 0 auto 20px;
+   display: block;
+   background: #c49005;
+   border-width: 0;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 12px;
+}
+.textcols-item p {
+   margin: 0;
+   padding-top: 10px;
+   font-weight: bold;
+}
+
+.textcols .textcols-item:last-child {
+	margin-right: 0 ;
+}

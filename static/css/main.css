@@ -1,0 +1,36 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   background: transparent;
+   font-family: 'Tahoma', sans-serif;
+}
+.ui-form {
+   width: 390px;
+   height: 100%;
+   padding: 30px 20px 20px;
+   margin: 180px auto 30px;
+   background: transparent;
+}
+
+.ui-form input[type="submit"] {
+   width: 390px;
+   height: 96px;
+   padding: 0;
+   margin: 0 auto 20px;
+   display: block;
+   line-height: 42px;
+   background: white;
+   border-width: 0;
+   color: black;
+   font-size: 30px;
+   font-weight: bold;
+   border-radius: 10px;
+   box-shadow: 0 0 40px rgba(100,100,100,1);
+
+}
+.ui-form p {
+   margin: 0;
+   padding-top: 10px;
+   font-weight: bold;
+}
